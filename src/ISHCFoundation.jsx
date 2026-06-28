@@ -48,7 +48,7 @@ const translations = {
       "ISHC Foundation works across health, education, animal welfare, and the environment — bringing low-cost healthcare, awareness, and relief support to people who need it most, especially in rural and underserved communities.",
     heroDonate: "Donate",
     heroVolunteer: "Join as Volunteer",
-    heroNote: "Donation and volunteering are set up directly through our team for now — both buttons take you to our contact details.",
+    heroNote: "Online payments and formal onboarding are coming soon — for now, share your details and our team will follow up directly.",
     statCamps: "Health camps held",
     statClinics: "Partner clinics & centers",
     statVillages: "Villages reached",
@@ -120,12 +120,30 @@ const translations = {
 
     eyebrowDonate: "Donate",
     donateTitle: "Support our work",
-    donateBody: "We're setting up our online donation system (QR code, UPI, and bank transfer details) — for now, please reach out to us directly and our team will guide you.",
+    donateBody: "We're setting up our online donation system (QR code, UPI, and bank transfer details) — for now, share your details and our team will reach out to guide you.",
     donateThanks: "Whatever you're able to give, thank you — every contribution helps us reach one more family, one more child, one more village.",
 
     eyebrowVolunteer: "Volunteer",
     volunteerTitle: "Join us as a volunteer",
-    volunteerBody: "We're building our formal volunteer onboarding process. Until it's ready, the fastest way to join us is to reach out directly — tell us a little about yourself and where you'd like to help.",
+    volunteerBody: "We're building our formal volunteer onboarding process. Until it's ready, share a few details below and our team will reach out to you directly.",
+
+    // FORM FIELDS (shared)
+    formName: "Full name",
+    formPhone: "Phone / WhatsApp number",
+    formEmail: "Email (optional)",
+    formCity: "City",
+    formCountry: "Country",
+    formHelpArea: "How would you like to help?",
+    formHelpAreaOptions: ["Health camps", "Education", "Environment", "Event support", "Other"],
+    formMessage: "Message (optional)",
+    formConsent: "I agree that ISHC Foundation can contact me using the details above.",
+    formSubmitVolunteer: "Submit interest",
+    formSubmitDonate: "Submit details",
+    formSubmitting: "Submitting...",
+    formSuccess: "Thank you! Our team will reach out to you soon.",
+    formErrorConsent: "Please agree to be contacted before submitting.",
+    formErrorRequired: "Please fill in your name and phone/WhatsApp number.",
+    formErrorGeneric: "Something went wrong. Please try again, or reach us directly using the contact details below.",
 
     eyebrowBlog: "Blog / News",
     blogTitle: "Stories from the field",
@@ -164,7 +182,7 @@ const translations = {
       "ISHC फाउंडेशन स्वास्थ्य, शिक्षा, पशु कल्याण और पर्यावरण के क्षेत्र में काम करता है — कम लागत वाली स्वास्थ्य सेवा, जागरूकता और राहत सहायता उन लोगों तक पहुँचाते हैं जिन्हें इसकी सबसे ज़्यादा ज़रूरत है, खासकर ग्रामीण और वंचित समुदायों में।",
     heroDonate: "दान करें",
     heroVolunteer: "स्वयंसेवक बनें",
-    heroNote: "दान और स्वयंसेवा अभी हमारी टीम के माध्यम से सीधे होती है — दोनों बटन आपको हमारे संपर्क विवरण तक ले जाएंगे।",
+    heroNote: "ऑनलाइन पेमेंट और औपचारिक प्रक्रिया जल्द आ रही है — अभी के लिए, अपनी जानकारी साझा करें और हमारी टीम सीधे आपसे संपर्क करेगी।",
     statCamps: "आयोजित स्वास्थ्य शिविर",
     statClinics: "सहयोगी क्लीनिक और केंद्र",
     statVillages: "गाँवों तक पहुँच",
@@ -236,12 +254,29 @@ const translations = {
 
     eyebrowDonate: "दान करें",
     donateTitle: "हमारे काम का समर्थन करें",
-    donateBody: "हम अपनी ऑनलाइन दान प्रणाली (QR कोड, UPI, और बैंक ट्रांसफर विवरण) तैयार कर रहे हैं — अभी के लिए, कृपया सीधे हमसे संपर्क करें और हमारी टीम आपका मार्गदर्शन करेगी।",
+    donateBody: "हम अपनी ऑनलाइन दान प्रणाली (QR कोड, UPI, और बैंक ट्रांसफर विवरण) तैयार कर रहे हैं — अभी के लिए, अपनी जानकारी साझा करें और हमारी टीम आपसे संपर्क करेगी।",
     donateThanks: "आप जो भी दे सकें, धन्यवाद — हर योगदान हमें एक और परिवार, एक और बच्चे, एक और गाँव तक पहुँचने में मदद करता है।",
 
     eyebrowVolunteer: "स्वयंसेवक",
     volunteerTitle: "स्वयंसेवक के रूप में जुड़ें",
-    volunteerBody: "हम अपनी औपचारिक स्वयंसेवक प्रक्रिया तैयार कर रहे हैं। जब तक यह तैयार न हो, हमसे जुड़ने का सबसे तेज़ तरीका है सीधे संपर्क करना — हमें अपने बारे में और आप कहाँ मदद करना चाहेंगे, बताएं।",
+    volunteerBody: "हम अपनी औपचारिक स्वयंसेवक प्रक्रिया तैयार कर रहे हैं। जब तक यह तैयार न हो, नीचे अपनी जानकारी साझा करें और हमारी टीम सीधे आपसे संपर्क करेगी।",
+
+    formName: "पूरा नाम",
+    formPhone: "फ़ोन / व्हाट्सएप नंबर",
+    formEmail: "ईमेल (वैकल्पिक)",
+    formCity: "शहर",
+    formCountry: "देश",
+    formHelpArea: "आप किस तरह मदद करना चाहेंगे?",
+    formHelpAreaOptions: ["स्वास्थ्य शिविर", "शिक्षा", "पर्यावरण", "कार्यक्रम सहायता", "अन्य"],
+    formMessage: "संदेश (वैकल्पिक)",
+    formConsent: "मैं सहमत हूँ कि ISHC फाउंडेशन ऊपर दी गई जानकारी का उपयोग करके मुझसे संपर्क कर सकता है।",
+    formSubmitVolunteer: "रुचि सबमिट करें",
+    formSubmitDonate: "जानकारी सबमिट करें",
+    formSubmitting: "सबमिट हो रहा है...",
+    formSuccess: "धन्यवाद! हमारी टीम जल्द ही आपसे संपर्क करेगी।",
+    formErrorConsent: "कृपया सबमिट करने से पहले संपर्क की सहमति दें।",
+    formErrorRequired: "कृपया अपना नाम और फ़ोन/व्हाट्सएप नंबर भरें।",
+    formErrorGeneric: "कुछ गड़बड़ हो गई। कृपया फिर से प्रयास करें, या नीचे दिए गए संपर्क विवरण से सीधे हमसे जुड़ें।",
 
     eyebrowBlog: "ब्लॉग / न्यूज़",
     blogTitle: "मैदान से कहानियाँ",
@@ -261,6 +296,9 @@ const translations = {
     footerRights: "सर्वाधिकार सुरक्षित।",
   },
 };
+
+// Replace with your deployed Google Apps Script Web App URL.
+const FORM_ENDPOINT = "https://script.google.com/macros/s/AKfycbyhWnmcHZgOaEzwPOtSjHquzhjfAlsoWBxPQ3JjE6XD6Rz9zc8vjKNysD-KJQCPPxig/exec";
 
 export default function ISHCFoundation() {
   const [scrollY, setScrollY] = useState(0);
@@ -573,10 +611,10 @@ export default function ISHCFoundation() {
               {t.heroBody}
             </p>
             <div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 14 }}>
-              <a href="#contact" onClick={(e) => scrollToId(e, "contact")} className="btn-primary">
+              <a href="#donate" onClick={(e) => scrollToId(e, "donate")} className="btn-primary">
                 {t.heroDonate} <ArrowRight size={18} />
               </a>
-              <a href="#contact" onClick={(e) => scrollToId(e, "contact")} className="btn-secondary">
+              <a href="#volunteer" onClick={(e) => scrollToId(e, "volunteer")} className="btn-secondary">
                 {t.heroVolunteer}
               </a>
             </div>
@@ -753,40 +791,46 @@ export default function ISHCFoundation() {
 
       {/* DONATE */}
       <section id="donate" style={{ padding: "90px 24px", background: "#1B3A6B" }}>
-        <div style={{ maxWidth: 700, margin: "0 auto", textAlign: "center", color: "#FFFFFF" }}>
-          <HandCoins size={30} color="#6CB33F" style={{ marginBottom: 16 }} />
-          <p style={{ fontWeight: 800, letterSpacing: "0.06em", textTransform: "uppercase", fontSize: "0.8rem", color: "#9CCBE8", marginBottom: 10 }}>
-            {t.eyebrowDonate}
-          </p>
-          <h2 className="display" style={{ fontSize: "clamp(1.6rem, 3vw, 2.1rem)", fontWeight: 800, marginBottom: 18 }}>
-            {t.donateTitle}
-          </h2>
-          <p style={{ fontSize: "1.02rem", lineHeight: 1.7, opacity: 0.92, maxWidth: 560, margin: "0 auto 18px" }}>
-            {t.donateBody}
-          </p>
-          <p style={{ fontSize: "0.96rem", lineHeight: 1.6, opacity: 0.8, maxWidth: 520, margin: "0 auto 30px", fontStyle: "italic" }}>
-            {t.donateThanks}
-          </p>
-          <a href="#contact" onClick={(e) => scrollToId(e, "contact")} className="btn-primary">
-            {t.navContact} <ArrowRight size={18} />
-          </a>
+        <div style={{ maxWidth: 560, margin: "0 auto", color: "#FFFFFF" }}>
+          <div style={{ textAlign: "center", marginBottom: 30 }}>
+            <HandCoins size={30} color="#6CB33F" style={{ marginBottom: 16 }} />
+            <p style={{ fontWeight: 800, letterSpacing: "0.06em", textTransform: "uppercase", fontSize: "0.8rem", color: "#9CCBE8", marginBottom: 10 }}>
+              {t.eyebrowDonate}
+            </p>
+            <h2 className="display" style={{ fontSize: "clamp(1.6rem, 3vw, 2.1rem)", fontWeight: 800, marginBottom: 18 }}>
+              {t.donateTitle}
+            </h2>
+            <p style={{ fontSize: "1.02rem", lineHeight: 1.7, opacity: 0.92, margin: "0 auto 14px" }}>
+              {t.donateBody}
+            </p>
+            <p style={{ fontSize: "0.92rem", lineHeight: 1.6, opacity: 0.75, margin: "0 auto", fontStyle: "italic" }}>
+              {t.donateThanks}
+            </p>
+          </div>
+
+          <div style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.12)", borderRadius: 16, padding: "30px 26px" }}>
+            <LeadForm t={t} formType="donate" dark />
+          </div>
         </div>
       </section>
 
       {/* VOLUNTEER */}
       <section id="volunteer" style={{ padding: "90px 24px", background: "#F7F9FB" }}>
-        <div style={{ maxWidth: 700, margin: "0 auto", textAlign: "center" }}>
-          <HeartHandshake size={30} color="#2E9BD6" style={{ marginBottom: 16 }} />
-          <SectionEyebrow color="#2E9BD6" center>{t.eyebrowVolunteer}</SectionEyebrow>
-          <h2 className="display" style={{ fontSize: "clamp(1.6rem, 3vw, 2.1rem)", fontWeight: 800, color: "#1B3A6B", marginBottom: 18 }}>
-            {t.volunteerTitle}
-          </h2>
-          <p style={{ fontSize: "1.02rem", lineHeight: 1.7, color: "#4B5667", maxWidth: 560, margin: "0 auto 30px" }}>
-            {t.volunteerBody}
-          </p>
-          <a href="#contact" onClick={(e) => scrollToId(e, "contact")} className="btn-primary">
-            {t.navContact} <ArrowRight size={18} />
-          </a>
+        <div style={{ maxWidth: 560, margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: 30 }}>
+            <HeartHandshake size={30} color="#2E9BD6" style={{ marginBottom: 16 }} />
+            <SectionEyebrow color="#2E9BD6" center>{t.eyebrowVolunteer}</SectionEyebrow>
+            <h2 className="display" style={{ fontSize: "clamp(1.6rem, 3vw, 2.1rem)", fontWeight: 800, color: "#1B3A6B", marginBottom: 18 }}>
+              {t.volunteerTitle}
+            </h2>
+            <p style={{ fontSize: "1.02rem", lineHeight: 1.7, color: "#4B5667", margin: "0 auto" }}>
+              {t.volunteerBody}
+            </p>
+          </div>
+
+          <div style={{ background: "#FFFFFF", border: "1px solid rgba(27,58,107,0.08)", borderRadius: 16, padding: "30px 26px", boxShadow: "0 4px 24px rgba(27,58,107,0.06)" }}>
+            <LeadForm t={t} formType="volunteer" />
+          </div>
         </div>
       </section>
 
@@ -997,6 +1041,175 @@ function DocRow({ icon, label }) {
         <Clock size={12} />
       </span>
     </div>
+  );
+}
+
+// Shared lead-capture form for Volunteer and Donate sections.
+// Posts to a Google Apps Script Web App endpoint (see FORM_ENDPOINT) which
+// appends a row to the matching tab in a Google Sheet.
+function LeadForm({ t, formType, dark = false }) {
+  const [values, setValues] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    city: "",
+    country: "India",
+    helpArea: t.formHelpAreaOptions[0],
+    message: "",
+    consent: false,
+  });
+  const [status, setStatus] = useState("idle"); // idle | submitting | success | error
+  const [errorMsg, setErrorMsg] = useState("");
+
+  const update = (field) => (e) => {
+    const value = field === "consent" ? e.target.checked : e.target.value;
+    setValues((v) => ({ ...v, [field]: value }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (!values.name.trim() || !values.phone.trim()) {
+      setStatus("error");
+      setErrorMsg(t.formErrorRequired);
+      return;
+    }
+    if (!values.consent) {
+      setStatus("error");
+      setErrorMsg(t.formErrorConsent);
+      return;
+    }
+
+    setStatus("submitting");
+    setErrorMsg("");
+
+    try {
+      await fetch(FORM_ENDPOINT, {
+        method: "POST",
+        mode: "no-cors", // Apps Script web apps don't return CORS headers; fire-and-confirm pattern
+        headers: { "Content-Type": "text/plain" },
+        body: JSON.stringify({
+          formType,
+          name: values.name.trim(),
+          phone: values.phone.trim(),
+          email: values.email.trim(),
+          city: values.city.trim(),
+          country: values.country.trim(),
+          helpArea: formType === "volunteer" ? values.helpArea : undefined,
+          message: values.message.trim(),
+          consent: values.consent,
+        }),
+      });
+      setStatus("success");
+    } catch (err) {
+      setStatus("error");
+      setErrorMsg(t.formErrorGeneric);
+    }
+  };
+
+  const inputStyle = {
+    width: "100%",
+    padding: "12px 14px",
+    borderRadius: 8,
+    border: dark ? "1px solid rgba(255,255,255,0.25)" : "1px solid rgba(27,58,107,0.18)",
+    background: dark ? "rgba(255,255,255,0.08)" : "#FFFFFF",
+    color: dark ? "#FFFFFF" : "#1F2937",
+    fontSize: "0.95rem",
+    fontFamily: "inherit",
+    outline: "none",
+  };
+  const labelStyle = {
+    display: "block",
+    fontSize: "0.82rem",
+    fontWeight: 700,
+    marginBottom: 6,
+    color: dark ? "#9CCBE8" : "#1B3A6B",
+  };
+
+  if (status === "success") {
+    return (
+      <div
+        style={{
+          background: dark ? "rgba(108,179,63,0.15)" : "#EEF7E9",
+          border: `1px solid ${dark ? "rgba(108,179,63,0.4)" : "rgba(108,179,63,0.3)"}`,
+          borderRadius: 12,
+          padding: "28px 24px",
+          textAlign: "center",
+        }}
+      >
+        <p style={{ fontSize: "1rem", fontWeight: 600, color: dark ? "#FFFFFF" : "#345C20" }}>{t.formSuccess}</p>
+      </div>
+    );
+  }
+
+  return (
+    <form onSubmit={handleSubmit} style={{ textAlign: "left" }} noValidate>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginBottom: 16 }}>
+        <div>
+          <label style={labelStyle}>{t.formName} *</label>
+          <input type="text" value={values.name} onChange={update("name")} style={inputStyle} required />
+        </div>
+        <div>
+          <label style={labelStyle}>{t.formPhone} *</label>
+          <input type="tel" value={values.phone} onChange={update("phone")} style={inputStyle} required />
+        </div>
+      </div>
+
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginBottom: 16 }}>
+        <div>
+          <label style={labelStyle}>{t.formEmail}</label>
+          <input type="email" value={values.email} onChange={update("email")} style={inputStyle} />
+        </div>
+        <div>
+          <label style={labelStyle}>{t.formCity}</label>
+          <input type="text" value={values.city} onChange={update("city")} style={inputStyle} />
+        </div>
+      </div>
+
+      <div style={{ display: "grid", gridTemplateColumns: formType === "volunteer" ? "1fr 1fr" : "1fr", gap: 16, marginBottom: 16 }}>
+        <div>
+          <label style={labelStyle}>{t.formCountry}</label>
+          <input type="text" value={values.country} onChange={update("country")} style={inputStyle} />
+        </div>
+        {formType === "volunteer" && (
+          <div>
+            <label style={labelStyle}>{t.formHelpArea}</label>
+            <select value={values.helpArea} onChange={update("helpArea")} style={inputStyle}>
+              {t.formHelpAreaOptions.map((opt) => (
+                <option key={opt} value={opt}>
+                  {opt}
+                </option>
+              ))}
+            </select>
+          </div>
+        )}
+      </div>
+
+      <div style={{ marginBottom: 18 }}>
+        <label style={labelStyle}>{t.formMessage}</label>
+        <textarea value={values.message} onChange={update("message")} rows={3} style={{ ...inputStyle, resize: "vertical" }} />
+      </div>
+
+      <label style={{ display: "flex", alignItems: "flex-start", gap: 10, marginBottom: 20, cursor: "pointer" }}>
+        <input
+          type="checkbox"
+          checked={values.consent}
+          onChange={update("consent")}
+          style={{ marginTop: 3, width: 16, height: 16, flexShrink: 0, accentColor: "#2E9BD6" }}
+        />
+        <span style={{ fontSize: "0.85rem", color: dark ? "rgba(255,255,255,0.85)" : "#4B5667", lineHeight: 1.5 }}>
+          {t.formConsent}
+        </span>
+      </label>
+
+      {status === "error" && (
+        <p style={{ fontSize: "0.85rem", color: dark ? "#FFB4B4" : "#C0392B", marginBottom: 14, fontWeight: 600 }}>{errorMsg}</p>
+      )}
+
+      <button type="submit" className="btn-primary" disabled={status === "submitting"} style={{ width: "100%", justifyContent: "center", opacity: status === "submitting" ? 0.7 : 1 }}>
+        {status === "submitting" ? t.formSubmitting : formType === "volunteer" ? t.formSubmitVolunteer : t.formSubmitDonate}
+      </button>
+    </form>
   );
 }
 
